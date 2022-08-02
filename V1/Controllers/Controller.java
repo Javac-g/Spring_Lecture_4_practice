@@ -1,6 +1,6 @@
-package com.company.Controllers;
+package com.company.V1.Controllers;
 
-import com.company.Services.myService;
+import com.company.V1.Services.myService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

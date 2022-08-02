@@ -1,4 +1,4 @@
-package com.company.Services;
+package com.company.V1.Services;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Scope;
