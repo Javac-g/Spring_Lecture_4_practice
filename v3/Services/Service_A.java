@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 
 @Service("Service_A")
 @Scope(value = "prototype",proxyMode = ScopedProxyMode.TARGET_CLASS)
-public class Service_A {
+public class Service_A implements MyServiceImpl {
     @Value("${prop.E}")
     private String one;
 
