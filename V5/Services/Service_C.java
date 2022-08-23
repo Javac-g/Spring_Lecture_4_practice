@@ -7,10 +7,10 @@ import org.springframework.stereotype.Service;
 
 @Service("Service_C")
 @Scope(value = "prototype",proxyMode = ScopedProxyMode.TARGET_CLASS)
-public class Service_C {
-    @Value("${prop.B}")
+public class Service_C implements ServiceImpl{
+    @Value("${prop.C}")
     private String one;
-
+    @Override
     public String getOne() {
         return one;
     }
